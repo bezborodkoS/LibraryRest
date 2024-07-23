@@ -1,4 +1,4 @@
-package com.example.libraryrest;
+package com.example.libraryrest.service;
 
 
 import com.example.libraryrest.model.Book;
