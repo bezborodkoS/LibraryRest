@@ -1,18 +1,17 @@
 package com.example.libraryrest.model;
 
-public class Book {
+public class BookMass {
     private String title;
     private String author;
     private int ISBN;
     private boolean isAvailableInLibrary;
 
-    public Book(String title, String author, int ISBN) {
+    public BookMass(String title, String author, int ISBN) {
         this.title = title;
         this.author = author;
         this.ISBN = ISBN;
         this.isAvailableInLibrary = true;
     }
-
 
     public String getTitle() {
         return title;
@@ -43,16 +42,16 @@ public class Book {
     }
 
     public void setAvailableInLibrary(boolean availableInLibrary) {
-        this.isAvailableInLibrary = availableInLibrary;
+        isAvailableInLibrary = availableInLibrary;
     }
 
     @Override
     public String toString() {
-        return "model.Book{" +
+        return "Book{" +
                 "title='" + title + '\'' +
                 ", author='" + author + '\'' +
                 ", ISBN=" + ISBN +
-                ", status=" + isAvailableInLibrary +
+                ", isAvailableInLibrary=" + isAvailableInLibrary +
                 '}';
     }
 }
