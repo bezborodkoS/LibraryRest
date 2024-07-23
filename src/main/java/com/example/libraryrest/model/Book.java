@@ -1,12 +1,12 @@
 package com.example.libraryrest.model;
 
-public class Books {
+public class Book {
     private String title;
     private String author;
     private int ISBN;
     private boolean isAvailableInLibrary;
 
-    public Books(String title, String author, int ISBN) {
+    public Book(String title, String author, int ISBN) {
         this.title = title;
         this.author = author;
         this.ISBN = ISBN;
